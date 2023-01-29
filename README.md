@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-https://github.com/d-lil/pencil-me-in
+https://d-lil.github.io/pencil-me-in/
 
 ![alt text](./assets/images/sss.png)
 What the planner looks like when opened.
