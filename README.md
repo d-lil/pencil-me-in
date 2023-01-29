@@ -15,7 +15,7 @@ https://d-lil.github.io/pencil-me-in/
 ![alt text](./assets/images/sss.png)
 What the planner looks like when opened.
 
-![alt text](./assets/images/sss.png)
+![alt text](./assets/images/sss1.png)
 You can type tasks into the hourly blocks and save them, so if the page refreshes they are still there.
 
 ## Credits
