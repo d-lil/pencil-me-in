@@ -27,8 +27,6 @@ for (var z = 0; z < 9; z++){
     words.textContent = localStorage.getItem("Eventb"+z);
 }
 
-
-
 for (var i = 0; i < 9; i++){
     var checkTime = document.getElementById("tb"+i);    
 
@@ -46,17 +44,15 @@ for (var i = 0; i < 9; i++){
     time++;
 }
 
-
 var main = document.getElementById("main");
 
 main.addEventListener('click', function(event){
     event.preventDefault();
     var selectedButton = event.target;
 
-    if (selectedButton.tagName != 'BUTTON') 
-    return;
+    if (selectedButton.tagName != 'BUTTON') {
+    return;}
 
-    console.log(selectedButton.tagName);
     var userInput = document.getElementById("t" + selectedButton.id);
 
    localStorage.setItem("Event" + selectedButton.id, userInput.value);
